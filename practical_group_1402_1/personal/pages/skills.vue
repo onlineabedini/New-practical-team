@@ -26,7 +26,7 @@
             <h2>مهارتهای من</h2>
             <p>مهارت های من در این بخش قابل نمایش است.</p>
         </div>
-        <div class="container-sm " style="background-color: #aaaaaa;">
+        <div class="container-sm " style="max-width: 500px;">
             <div> </div>
             <div style="text-align: center;">برنامه نویسی </div>
             <div> </div>
@@ -56,7 +56,7 @@
               <div> </div>
         </div>
         <div> </div>
-        <div class="container-sm" style="background-color: #aaaaaa;">
+        <div class="container-sm" style="max-width: 500px;" >
             <div> </div>
             <div style="text-align: center;">مهارت های دیگر</div>
             <div> </div>
