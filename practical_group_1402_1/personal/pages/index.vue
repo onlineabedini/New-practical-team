@@ -1,11 +1,70 @@
 <template>
-  
-  <h1>صفحه اصلی پروژه</h1>
+  <div>
 
+    <div class="text-start w-75 h-25  bd_shadow rounded">
+      <p>مهارت های من</p>
+    </div>
+
+    <p class="p-2" style="margin-top: 10px;"> برنامه نویسی</p>
+
+    <div class="container">
+      <div div class="mx-auto">
+        <div class="progress w-50 " style="height: 30px;">
+          <div class="progress-bar progress-bar-striped text-end pe-3" role="progressbar" style="width: 75%"
+            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">vue js </div>
+        </div>
+
+        <div class="progress w-50 mt-1" style="height: 30px;">
+          <div class="progress-bar progress-bar-striped text-end pe-3 " role="progressbar" style="width: 50%"
+            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"> Nuxt js </div>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="p-2" style="margin-top: 10px;">مهارت های دیگر </p>
+
+    <div class="container">
+      <div class="mx-auto">
+        <div class="progress w-50 " style="height: 30px;">
+          <div class="progress-bar progress-bar-striped bg-success text-end pe-3" role="progressbar" style="width: 45%"
+            aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">فن بیان </div>
+        </div>
+
+        <div class="progress w-50 mt-1" style="height: 30px;">
+          <div class="progress-bar progress-bar-striped bg-success text-end pe-3 " role="progressbar" style="width: 40%"
+            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"> زبان انگلیسی </div>
+        </div>
+
+        <div class="progress w-50 mt-1" style="height: 30px;">
+          <div class="progress-bar progress-bar-striped bg-success text-end pe-3 " role="progressbar" style="width: 30%"
+            aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"> مدیریت اسکرام </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="text-start w-75 h-25 bd_shadow rounded mt-5">
+      <p>درباره من</p>
+    </div>
+    <p class="p-2 text-break w-75">
+      vtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+    </p>
+
+    <div class="text-start w-75 h-25  bd_shadow rounded">
+      <p>پست های وبلاگ</p>
+    </div>
+    <p class="p-2"> test</p>
+
+
+  </div>
 </template>
 <script>
 
 </script>
 <style>
-
+.bd_shadow {
+  box-shadow: 0px 0px 5px 1px rgb(81, 149, 158);
+  padding: 2px;
+}
 </style>
