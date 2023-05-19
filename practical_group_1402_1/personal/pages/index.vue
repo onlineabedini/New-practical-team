@@ -66,16 +66,20 @@
       <div class="col-4">
 
         <div class="row row-cols-2 bd_shadow rounded ps-3">
-          <div class="col">
+          <div class="col position-relative">
+            <p class="position-absolute top-50 start-50 translate-middle text-white fs-2">پروژه</p>
             <img class="p-1 " src="../static/img/2.jpg" alt="پروژه" style="width: 200px;">
           </div>
-          <div class="col">
+          <div class="col position-relative">
+            <p class="position-absolute top-50 start-50 translate-middle text-white fs-2">مقاله</p>
             <img class="p-1" src="../static/img/4.jpg" alt="مقاله" style="width: 200px;">
           </div>
-          <div class="col">
+          <div class="col position-relative">
+            <p class="position-absolute top-50 start-50 translate-middle text-white fs-2">دانشگاه</p>
             <img class="p-1 mt-1" src="../static/img/3.jpg" alt="" style="width: 200px;">
           </div>
-          <div class="col">
+          <div class="col position-relative">
+            <p class="position-absolute top-50 start-50 translate-middle text-white fs-2">سرگرمی</p>
             <img class="p-1 mt-1" src="../static/img/5.jpg" alt="سرگرمی" style="width: 200px;">
           </div>
         </div>
