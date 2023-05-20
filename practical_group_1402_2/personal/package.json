@@ -1,5 +1,5 @@
 {
-  "name": "index.js",
+  "name": "irnode_main_personal_practical_project",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,12 +12,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
     "core-js": "^3.9.1",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.22",
     "nuxt": "^2.15.3"
   },
-  "description": "```bash\r # install dependencies\r $ npm install",
-  "main": "nuxt.config.js",
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {}
 }
