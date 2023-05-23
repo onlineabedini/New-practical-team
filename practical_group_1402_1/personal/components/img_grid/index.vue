@@ -4,14 +4,13 @@
     <div class="row ">
       <div class="col-6">
         <SingleGridImg :ImgLink='Pic1.Link' :Title='Pic1.title'></SingleGridImg>
-        <SingleGridImg :ImgLink='Pic2.Link' :Title='Pic2.title'></SingleGridImg>
+        <SingleGridImg :ImgLink='Pic2.Link' :Title='Pic2.title' class="pt-2"></SingleGridImg>
       </div>
       <div class="col-6">
         <SingleGridImg :ImgLink='Pic3.Link' :Title='Pic3.title'></SingleGridImg>
-        <SingleGridImg :ImgLink='Pic4.Link' :Title='Pic4.title'></SingleGridImg>
+        <SingleGridImg :ImgLink='Pic4.Link' :Title='Pic4.title' class="pt-2"></SingleGridImg>
       </div>
     </div>
-
 
   </div>
 </template>

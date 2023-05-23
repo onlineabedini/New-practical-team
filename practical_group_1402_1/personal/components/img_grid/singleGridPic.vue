@@ -24,7 +24,7 @@ export default {
 /* this is for css */
 
 .mainDiv {
-  padding: 1.5px;
+  width: 204px;
 }
 
 .pic {
@@ -37,6 +37,8 @@ export default {
   font-weight: bold;
   background-blend-mode: soft-light;
   height: 200px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
