@@ -1,23 +1,10 @@
 <template>
-<<<<<<< Updated upstream
-    <!-- html -->
-  
-  </template>
-  <script>
-  
-  //this is for java script
-  
-  </script>
-  <style scoped>
-  
-  /* this is for css */
-  
-  </style>
-=======
-  <div v-for="card in sample_card" :key="card.id">
-    <h1>
-      {{ card.title }}
-    </h1>
+  <div>
+    <div v-for="card in sample_card" :key="card.id">
+      <h1>
+        {{ card.title }}
+      </h1>
+    </div>
   </div>
 </template>
 <script>
@@ -40,7 +27,7 @@ export default {
           id: 1,
           img_url:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-QYyKqnWL_KjJFEVbzeafD1fOgUAWGdqNhA&usqp=CAU",
-          title: "نمونه کار 1",
+          title: "نمونه کار 2",
           description:
             "این یک نمونه کار آزمایشی از مالک وبسایت است که از سمت سرور برای شما ارسال شده.",
           data: `
@@ -75,4 +62,3 @@ export default {
 };
 </script>
 <style scoped></style>
->>>>>>> Stashed changes
