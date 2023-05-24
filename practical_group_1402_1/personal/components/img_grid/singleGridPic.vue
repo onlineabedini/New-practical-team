@@ -23,9 +23,6 @@ export default {
 <style scoped>
 /* this is for css */
 
-.mainDiv {
-  width: 204px;
-}
 
 .pic {
 
@@ -40,5 +37,6 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 </style>

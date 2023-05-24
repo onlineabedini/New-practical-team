@@ -1,14 +1,14 @@
 <template>
   <!-- html -->
   <div class="main">
-    <div class="row ">
-      <div class="col-6">
+    <div class="row">
+      <div class="col-6" style="padding-left: 3px;">
         <SingleGridImg :ImgLink='Pic1.Link' :Title='Pic1.title'></SingleGridImg>
-        <SingleGridImg :ImgLink='Pic2.Link' :Title='Pic2.title' class="pt-2"></SingleGridImg>
+        <SingleGridImg :ImgLink='Pic2.Link' :Title='Pic2.title' class="pt-1"></SingleGridImg>
       </div>
-      <div class="col-6">
+      <div class="col-6" style="padding-right: 3px;">
         <SingleGridImg :ImgLink='Pic3.Link' :Title='Pic3.title'></SingleGridImg>
-        <SingleGridImg :ImgLink='Pic4.Link' :Title='Pic4.title' class="pt-2"></SingleGridImg>
+        <SingleGridImg :ImgLink='Pic4.Link' :Title='Pic4.title' class="pt-1"></SingleGridImg>
       </div>
     </div>
 
@@ -50,4 +50,8 @@ export default {
 </script>
 <style scoped>
 /* this is for css */
+.main {
+  border: solid rgb(81, 149, 158) 2px;
+  padding: 5px;
+}
 </style>
