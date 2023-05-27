@@ -1,7 +1,7 @@
 const  express = require('express');
 const app = express();
 const port = 8080;
-// const api_router = require('./api');
+const api_router = require('./api');
 
 module.exports = class application {
     constructor() {
@@ -18,6 +18,6 @@ module.exports = class application {
         })
     }
     apiconfig(){
-
+        app.use('/api',api_router)
     }
 }

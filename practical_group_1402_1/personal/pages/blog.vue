@@ -23,48 +23,10 @@
                 <!-- row seprator -->
                 <div class="row  txtalign">
                     <div class=" margin   border border-success-subtle col txtalign widthlimit">
-                        <img class="imgwidthlimit" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblog&psig=AOvVaw3Cr2byXEh_ydnOwWg8M-gR&ust=1684779797082000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODOkP2Dh_8CFQAAAAAdAAAAABAD" alt="">
-                        <h3>مقاله1</h3>
-                        <p>این یک مقاله ازمایشی است که از سمت سرور برای شما ارسال شده است</p>
+                        <blog_card :img_url="blog.img_url" :title="blog.title" :description="blog.description">
+                        </blog_card>
                     </div>
-                    <div class=" margin   border border-success-subtle col txtalign widthlimit">
-                        <img class="imgwidthlimit" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblog&psig=AOvVaw3Cr2byXEh_ydnOwWg8M-gR&ust=1684779797082000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODOkP2Dh_8CFQAAAAAdAAAAABAD" alt="">
-                        <h3>مقاله2</h3>
-                        <p>این یک مقاله ازمایشی است که از سمت سرور برای شما ارسال شده است</p>
-                    </div>
-                    <div class="border  margin   border-success-subtle col txtalign widthlimit">
-                        <img class="imgwidthlimit" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblog&psig=AOvVaw3Cr2byXEh_ydnOwWg8M-gR&ust=1684779797082000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODOkP2Dh_8CFQAAAAAdAAAAABAD" alt="">
-                        <h3>مقاله3</h3>
-                        <p>این یک مقاله ازمایشی است که از سمت سرور برای شما ارسال شده است</p>
-                    </div>
-                    <div class="border border-success-subtle  margin   col txtalign widthlimit">
-                        <img class="imgwidthlimit" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblog&psig=AOvVaw3Cr2byXEh_ydnOwWg8M-gR&ust=1684779797082000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODOkP2Dh_8CFQAAAAAdAAAAABAD" alt="">
-                        <h3>مقاله4</h3>
-                        <p>این یک مقاله ازمایشی است که از سمت سرور برای شما ارسال شده است</p>
-                    </div>
-                </div>
-                <!-- second row seprator -->
-                <div class="row txtalign">
-                    <div class=" margin   border border-success-subtle col txtalign widthlimit">
-                        <img class="imgwidthlimit" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblog&psig=AOvVaw3Cr2byXEh_ydnOwWg8M-gR&ust=1684779797082000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODOkP2Dh_8CFQAAAAAdAAAAABAD" alt="">
-                        <h3>مقاله5</h3>
-                        <p>این یک مقاله ازمایشی است که از سمت سرور برای شما ارسال شده است</p>
-                    </div>
-                    <div class=" margin   border border-success-subtle col txtalign widthlimit">
-                        <img class="imgwidthlimit" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblog&psig=AOvVaw3Cr2byXEh_ydnOwWg8M-gR&ust=1684779797082000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODOkP2Dh_8CFQAAAAAdAAAAABAD" alt="">
-                        <h3>مقاله6</h3>
-                        <p>این یک مقاله ازمایشی است که از سمت سرور برای شما ارسال شده است</p>
-                    </div>
-                    <div class="border  margin   border-success-subtle col txtalign widthlimit">
-                        <img class="imgwidthlimit" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblog&psig=AOvVaw3Cr2byXEh_ydnOwWg8M-gR&ust=1684779797082000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODOkP2Dh_8CFQAAAAAdAAAAABAD" alt="">
-                        <h3>مقاله7</h3>
-                        <p>این یک مقاله ازمایشی است که از سمت سرور برای شما ارسال شده است</p>
-                    </div>
-                    <div class="border border-success-subtle  margin   col txtalign widthlimit">
-                        <img class="imgwidthlimit" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fblog&psig=AOvVaw3Cr2byXEh_ydnOwWg8M-gR&ust=1684779797082000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODOkP2Dh_8CFQAAAAAdAAAAABAD" alt="">
-                        <h3>مقاله8</h3>
-                        <p>این یک مقاله ازمایشی است که از سمت سرور برای شما ارسال شده است</p>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -84,6 +46,8 @@
   <script>
   
   //this is for java script
+
+  import blog_card from '@/components/cards/blog_card.vue'
   
   </script>
   <style scoped>
