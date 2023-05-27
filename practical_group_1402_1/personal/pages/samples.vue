@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div v-for="card in sample_card" :key="card.id">
-      <h1>
-        {{ card.title }}
-      </h1>
-    </div>
+ <sample_card v-for="sample in sample_card" :key="sample.id" :img_link="sample.img_url" :My_title="sample.title" :My_description="sample.description"></sample_card>
   </div>
 </template>
 <script>
+import sample_card from "@/components/cards/sample_card.vue";
 export default {
+ components:{
+  sample_card
+ },
   data() {
     return {
       sample_card: {
@@ -61,4 +61,5 @@ export default {
   },
 };
 </script>
-<style scoped></style>
+<style scoped>
+</style>
