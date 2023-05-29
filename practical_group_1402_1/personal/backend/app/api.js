@@ -12,11 +12,11 @@ router.get('/sample',(req,res) => {
 })
 
 //define article by id page
-router.get('article:id',(req,res) => {
+router.get('/article/:id',(req,res) => {
     res.send(articledata)
 })
 //define sample by page
-router.get('sample:id',(req,res) => {
+router.get('/sample/:id',(req,res) => {
     res.send(sampledata)
 })
 
