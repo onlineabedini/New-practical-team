@@ -1,5 +1,11 @@
 <template>
   <div>
+    <h1 class="text-center">نمونه کار های من</h1>
+    <div class="line">
+      <hr class="w-50">
+      <h5 class="text-center">نوشته های من را در اینستاگرام، توییتر و شبکه های اجتماعی دیگر دنبال کنید</h5>
+      <hr class="w-50  mb-5">
+    </div>
  <sample_card v-for="sample in sample_card" :key="sample.id" :img_link="sample.img_url" :My_title="sample.title" :My_description="sample.description"></sample_card>
   </div>
 </template>
@@ -38,7 +44,7 @@ export default {
           id: 1,
           img_url:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-QYyKqnWL_KjJFEVbzeafD1fOgUAWGdqNhA&usqp=CAU",
-          title: "نمونه کار 1",
+          title: "نمونه کار 3",
           description:
             "این یک نمونه کار آزمایشی از مالک وبسایت است که از سمت سرور برای شما ارسال شده.",
           data: `
@@ -49,7 +55,7 @@ export default {
           id: 1,
           img_url:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-QYyKqnWL_KjJFEVbzeafD1fOgUAWGdqNhA&usqp=CAU",
-          title: "نمونه کار 1",
+          title: "نمونه کار 4",
           description:
             "این یک نمونه کار آزمایشی از مالک وبسایت است که از سمت سرور برای شما ارسال شده.",
           data: `
@@ -62,4 +68,10 @@ export default {
 };
 </script>
 <style scoped>
+.line{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 </style>
