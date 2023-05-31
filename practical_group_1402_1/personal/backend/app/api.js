@@ -1,21 +1,20 @@
 const express =require('express');
 const router =express.Router();
-const articledata=require('./data/article');
-const sampledata=require('./data/sample')
+const controller = require ('./controller')
 //define article page
 router.get('/article',(req,res) => {
-    res.send('article page')
+    controller.articlecontroler.allarticles(req,res)
 })
 //define sample page
 router.get('/sample',(req,res) => {
-    res.send('sample page')
+    controller.samplecontroler.allsamples(req,res)
 })
 
 //define article by id page
 router.get('/article/:id',(req,res) => {
     res.send(articledata)
 })
-//define sample by page
+//define sample by id page
 router.get('/sample/:id',(req,res) => {
     res.send(sampledata)
 })
