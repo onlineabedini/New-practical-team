@@ -3,9 +3,9 @@
     <h1 class="text-center">درباره من</h1>
     <!-- this is title -->
 
-    <hr class="w-50 mt-5" />
+    <hr class="w-50 mt-5 m-auto" />
     <h6 class="text-center">درباره من در این بخش مطالعه کنید</h6>
-    <hr class="w-50 mb-5" />
+    <hr class="w-50 mb-5 m-auto" />
 
     <p class="text-center">
       لورم اپیسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و پا استفاده از
