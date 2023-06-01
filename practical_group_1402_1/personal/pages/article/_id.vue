@@ -22,8 +22,10 @@
 </template>
 <script>
 
-  //this is for java script
-
+//this is for java script
+export default {
+  layout: 'pages'
+}
 </script>
 <style scoped>
 /* this is for css */
