@@ -4,10 +4,10 @@
       <!-- div that contains all elements -->
     <div class="row">
         <!-- left sidebar -->
-        <div class="margin margintop col-sm-2 p-3  border border-secondary rounded-start rounded-end">
+        <div class="margin margintop col-sm-2 p-3  border border-secondary rounded-start rounded-end txtalign">
             
             <!-- sample menu buttons for side bar -->
-            <div class="btn-group-vertical txtalign " role="group" aria-label="Vertical button group">
+            <div class="btn-group-vertical txtalign" role="group" aria-label="Vertical button group">
                 <button type="button" class="btn btn-primary">Article search</button>
                 <button type="button" class="btn btn-secondary">Add article</button>
                 <button type="button" class="btn btn-danger">Report article</button>
@@ -43,7 +43,9 @@
           </div>
             
         </div>
+        <button type="button" class="btn btn-success floatmenu">ارتباط با کارشناس</button>
     </div>
+    
     </div>
   
   </template>
@@ -108,7 +110,7 @@
         sample6: {
           id: 6,
           img_url:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-QYyKqnWL_KjJFEVbzeafD1fOgUAWGdqNhA&usqp=CAU",
+            "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/BMD-3398-760x400.png",
           title: "مقاله 6",
           description:
             "این یک مقاله آزمایشی است که از سمت سرور برای شما ارسال شده است.",
@@ -126,7 +128,7 @@
         sample8: {
           id: 8,
           img_url:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-QYyKqnWL_KjJFEVbzeafD1fOgUAWGdqNhA&usqp=CAU",
+            "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2022/08/BMD-3398-760x400.png",
           title: "مقاله 8",
           description:
             "این یک مقاله آزمایشی است که از سمت سرور برای شما ارسال شده است.",
@@ -145,13 +147,6 @@
         
         width: fit-content;
     }
-    .widthlimit{
-        max-width: 200px;
-    }
-    .imgwidthlimit{
-        max-width: 170px;
-        margin-top: 3px;
-    }
     .margin{
         margin-left: 5px;
         margin-right: 5px;
@@ -161,5 +156,11 @@
     .margintop{
         margin-top: 50px;
     }
-  
+    .floatmenu{
+    position: fixed;
+    max-width: 90px;
+    bottom: 40px;
+    right: 10px;
+    
+    }
   </style>

@@ -3,7 +3,7 @@
     <div>
       
         <div class="mxdivw">
-          <img :src="blog_img_link" class="mximgw">
+          <img :src="blog_img_link" class="mximgw aligncntr">
           <h3>{{blog_title }}</h3>
           <p>{{ blog_description }}</p>
         </div>
@@ -26,10 +26,18 @@
   .mxdivw{
     max-width: 200px;
     max-height: 400px;
-    margin: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
   }
   
   .mximgw{
     max-width: 180px;
+  }
+  .aligncntr{
+    align-items: center;
+    text-align: center;
+    align-content: center;
   }
   </style>
