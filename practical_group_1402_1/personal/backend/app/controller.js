@@ -11,7 +11,14 @@ class articlecontroler{
     }
 
     articlebyid(req,res){
-
+        const url_article_id = req.params.id;
+        const find_article_id= articledata.find(data_article => data_article.id == url_article_id)
+        if(find_article_id){
+            res.json(find_article_id)
+        }
+        else{
+            res.status(404).send('not found')
+        }
     }
 
 }
@@ -24,7 +31,15 @@ class samplecontroler{
     }
 
     samplebyid(req,res){
-        
+        // 
+        const url_sample_id = req.params.id;
+        const find_sample_id= sampledata.find(data_sample => data_sample.id == url_sample_id)
+        if(find_sample_id){
+            res.json(find_sample_id)
+        }
+        else{
+            res.status(404).send('not found')
+        }
     }
 
 }

@@ -12,11 +12,11 @@ router.get('/sample',(req,res) => {
 
 //define article by id page
 router.get('/article/:id',(req,res) => {
-    res.send(articledata)
+    controller.articlecontroler.articlebyid(req,res)
 })
 //define sample by id page
 router.get('/sample/:id',(req,res) => {
-    res.send(sampledata)
+    controller.samplecontroler.samplebyid(req,res)
 })
 
 module.exports = router;
