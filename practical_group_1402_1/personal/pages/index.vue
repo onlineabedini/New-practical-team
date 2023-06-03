@@ -70,7 +70,9 @@
 
           <p>پست های وبلاگ</p>
         </div>
-        <p class="p-2"> test</p>
+        <blog_card class="border border-secondary border-start-0 border-end-0 col-3" v-for="blog in blog_card"
+          :key="blog.id" :blog_img_link="blog.img_url" :blog_title="blog.title" :blog_description="blog.description">
+        </blog_card>
       </div>
       <div class="col-4">
 
@@ -88,14 +90,31 @@
 </template>
 
 <script>
-
+import blog_card from '@/components/cards/blog_card.vue'
 import SideImg from '@/components/img_grid/index.vue'
 
 export default {
   components: {
+    blog_card,
     SideImg
+  },
+  data() {
+    return {
+      blog_card: {}
+    }
+  },
+  mounted() {
+    this.$axios.get('http://localhost:8080/api/article')
+      .then(response => {
+        this.blog_card = response.data
+        console.log(this.blog_card)
+      })
+      .catch(error => { console.log(error) })
+
   }
 }
+
+
 
 </script>
 
