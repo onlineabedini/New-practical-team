@@ -1,25 +1,40 @@
 <template>
   <div>
-    <h1 class="text-center">نمونه کار ۳</h1>
+    <h1 class="text-center">{{ requested_sample.title }}</h1>
     <p class="text-center">
-      این یک نمونه کارازمایشی از مالک وبسایت است که از سمت سرور برای شماارسال
-      شده.
+      {{ requested_sample.description }}
     </p>
     <div class="text-center">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-QYyKqnWL_KjJFEVbzeafD1fOgUAWGdqNhA&usqp=CAU"
-        class="w-75 p-3" />
+      <img src=requested_sample.img_url class="w-75 p-3" >
 
 
       <p class="text-right " style="margin-top: 70px;margin-left: 170px;">
-        این محتوا یک نمونه کار است که برای شما ارسال شده تا بتوانید به درستی کار
-        خودرا توسعه دهیدو در فرآیند برنامه نویسی موفق شوید
+        {{ requested_sample.data }}
       </p>
     </div>
   </div>
 </template>
 <script>
 export default {
-  layout: 'pages'
+
+  data(){
+    return{
+      requested_sample:[],
+      id :1
+    }
+  },
+  layout: 'pages',
+  mounted() {
+    this.id =this.$route.params.id
+      this.$axios.get('http://localhost:8080/api/sample/'+this.id)
+      .then(response => {
+        this.requested_sample = response.data
+        console.log(this.requested_sample)
+      })
+      .catch(error => { console.log(error) })
+
+  }
 }
+
 </script>
 <style scoped></style>
