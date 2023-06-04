@@ -70,13 +70,18 @@
 
           <p>پست های وبلاگ</p>
         </div>
-        <blog_card class="border border-secondary border-start-0 border-end-0 col-3" v-for="blog in blog_card"
-          :key="blog.id" :blog_img_link="blog.img_url" :blog_title="blog.title" :blog_description="blog.description">
-        </blog_card>
+        <!-- blog-card container -->
+        <div class="container1">
+          <div class="row mt-1">
+            <blog_card class="border shadow bg-body col-3 content mt-1 me-1" v-for="blog in blog_card" :key="blog.id"
+              :blog_img_link="blog.img_url" :blog_title="blog.title" :blog_description="blog.description">
+            </blog_card>
+          </div>
+        </div>
       </div>
       <div class="col-4">
 
-        <!-- picture section -->
+        <!-- side picture section -->
 
         <SideImg></SideImg>
 
@@ -122,5 +127,24 @@ export default {
 .bd_shadow {
   box-shadow: 0px 0px 5px 1px rgb(81, 149, 158);
   padding: 2px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 24%;
+}
+
+.container1 {
+  width: 100%;
+  padding-right: .75rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 </style>
