@@ -73,9 +73,11 @@
         <!-- blog-card container -->
         <div class="container1">
           <div class="row mt-1">
-            <blog_card class="border shadow bg-body col-3 content mt-1 me-1" v-for="blog in blog_card" :key="blog.id"
-              :blog_img_link="blog.img_url" :blog_title="blog.title" :blog_description="blog.description">
-            </blog_card>
+            <div class="col content me-1" v-for="blog in blog_card" :key="blog.id" @click='clickevent(blog.id)'>
+              <blog_card class="border shadow bg-body mt-1" :blog_img_link="blog.img_url" :blog_title="blog.title"
+                :blog_description="blog.description">
+              </blog_card>
+            </div>
           </div>
         </div>
       </div>
@@ -116,6 +118,11 @@ export default {
       })
       .catch(error => { console.log(error) })
 
+  },
+  methods: {
+    clickevent(id) {
+      this.$router.push('/article/' + id)
+    }
   }
 }
 
@@ -134,9 +141,10 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  cursor: pointer;
 }
 
-.col-3 {
+.col {
   flex: 0 0 auto;
   width: 24%;
 }
