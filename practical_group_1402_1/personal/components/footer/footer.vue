@@ -17,7 +17,7 @@
           <div class="join border rounded-2 p-3">
             <h5 class="class_1">عضویت در خبرنامه/اخبار</h5>
             <h6 class="class_2"><small>در خبرنامه عضو شوید و از آخرین اخبار ، تخفیف ها و خدمات من باخبر شوید.</small></h6>
-           <input type="text" id="inputpost" placeholder="پست الکترونیکی " class="form-control rounded-pill p-0 mb-2">
+           <input type="text" id="inputpost" placeholder="پست الکترونیکی " class="form-control rounded-pill p-0 mb-2 pe-2">
             <button type="button" class="btn btn-outline-light">ثبت</button>
           </div>
         </div>

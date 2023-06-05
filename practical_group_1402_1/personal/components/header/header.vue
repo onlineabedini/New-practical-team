@@ -8,7 +8,7 @@
       <!--Add menus-->
       <div class="p-1">
         <p>
-          <a class="link-dark  text-decoration-none fs-5 ms-4" href="/homme">
+          <a class="link-dark  text-decoration-none fs-5 ms-4" href="/">
           خانه
           </a>
           <a class="link-dark  text-decoration-none fs-5 ms-4" href="/samples">
