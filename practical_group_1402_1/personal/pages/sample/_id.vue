@@ -5,7 +5,7 @@
       {{ requested_sample.description }}
     </p>
     <div class="text-center">
-      <img src=requested_sample.img_url class="w-75 p-3" >
+      <img :src="requested_sample.img_url" class="w-75 p-3" >
 
 
       <p class="text-right " style="margin-top: 70px;margin-left: 170px;">
