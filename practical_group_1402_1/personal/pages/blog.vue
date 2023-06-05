@@ -43,7 +43,7 @@
           </div>
             
         </div>
-        <button type="button" class="btn btn-success floatmenu">ارتباط با کارشناس</button>
+        
     </div>
     
     </div>
@@ -155,12 +155,5 @@
     }
     .margintop{
         margin-top: 50px;
-    }
-    .floatmenu{
-    position: fixed;
-    max-width: 90px;
-    bottom: 40px;
-    right: 10px;
-    
     }
   </style>

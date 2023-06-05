@@ -3,6 +3,7 @@
     <app_header></app_header>
     <div class="container">
       <Nuxt />
+      <button type="button" class="btn btn-success floatmenu">ارتباط با کارشناس</button>
     </div>
     <app_footer></app_footer>
   </div>
@@ -24,4 +25,11 @@ export default {
   margin: 0 auto;
   padding: 50px;
 }
+.floatmenu{
+    position: fixed;
+    max-width: 90px;
+    bottom: 40px;
+    right: 10px;
+    
+    }
 </style>
