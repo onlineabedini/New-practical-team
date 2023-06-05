@@ -12,7 +12,7 @@
   <script>
   export default{
     props: ["image", "title", "description"]
-  };
+  }
   </script>
   <style scoped>
   /*  */
