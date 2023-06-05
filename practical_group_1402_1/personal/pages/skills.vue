@@ -1,7 +1,7 @@
 <template>
     <div>
             
-    <div class="container-xxl h200" ></div>
+    <div class="container-xxl " ></div>
     <div class="container-sm">
         <div class="container-sm txtalign">
             <h2>مهارتهای من</h2>
