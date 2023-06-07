@@ -1,3 +1,6 @@
+
+// coded by amir.a
+
 const sampledata = require('./data/sample')
 const articledata = require('./data/article')
 const { response } = require('express')
